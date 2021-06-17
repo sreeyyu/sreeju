@@ -1,0 +1,33 @@
+{
+  "panels": 
+  [
+    {
+      "gridpos":
+	  {
+        "h":5,
+        "w":4,
+        "x":0,
+        "y":2,
+      }
+      "id":64,
+      "interval":null,
+      "mappingType":1,
+      "prefixFontSize":"50%",
+      "targets":
+	  [
+        {
+          "cacheFixedTime":3,
+          "cacheVariance":5,
+          "checkQuery":false,
+          "hide":false,
+          "rawQuery":true,
+          "refId":"A",
+          "redcache":false,
+          "selectional":"Fixed Time",
+          "table":true,
+          "target":"WITH ssquad as ProjectKeyArray\nmatch(n:SPRINTNAME_KPORG)where n.projectKey in projectkey"
+        }
+       ]
+    }
+  ]
+}
