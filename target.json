@@ -15,7 +15,7 @@
         {
           "cacheFixedTime": 3,
           "cacheVariance": 5,
-          "checkQuery": false,
+          "checkQuery":  false,
           "hide": false,
           "rawQuery": true,
           "refId": "A",
